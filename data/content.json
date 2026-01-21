@@ -1,0 +1,516 @@
+{
+  "siteTitle": "AGA Western Cape",
+  "tagline": "Empowering Youth Through Archery",
+  "hero": {
+    "title": "AGA Western Cape",
+    "subtitle": "Building Character, Focus, and Excellence Through Archery",
+    "cta": {
+      "text": "Learn More",
+      "link": "#about"
+    }
+  },
+  "navigation": [
+    {
+      "name": "Home",
+      "url": "index.html"
+    },
+    {
+      "name": "About",
+      "url": "about.html"
+    },
+    {
+      "name": "Events",
+      "url": "events.html"
+    },
+    {
+      "name": "Fees",
+      "url": "fees.html"
+    },
+    {
+      "name": "Records",
+      "url": "results.html"
+    },
+    {
+      "name": "Contact",
+      "url": "contact.html"
+    },
+    {
+      "name": "Live Scores",
+      "url": "https://naspwpscoring.co.za",
+      "external": true
+    },
+    {
+      "name": "Results",
+      "url": "https://naspwpscoring.co.za",
+      "external": true
+    }
+  ],
+  "about": {
+    "title": "What is AGA?",
+    "intro": "AGA is an activity that doesn't discriminate based on popularity, athletic skill, gender, size, or academic ability.",
+    "description": "It's a team sport centered on archery for students in grades 2-12, emphasizing character development including focus, self-control, discipline, patience, and the life lessons required to be successful.",
+    "mission": "AGA SA focuses on youth upliftment through recreational facilities in remote and underserved communities, reducing crime and strengthening the social fabric of our communities through government-supported extracurricular activities.",
+    "purpose": {
+      "title": "Purpose of AGA SA",
+      "description": "We develop lifelong skills in youth using archery as the primary medium. Studies from the USA demonstrate that archery participation improves discipline, respect, and school attendance. Physical activity increases, and archery connects to math, science, and history curricula.",
+      "benefits": [
+        "Creates a level playing field for athletes and non-athletes alike",
+        "Builds self-esteem in high-risk children through documented success",
+        "Improves discipline and respect",
+        "Increases school attendance",
+        "Connects to educational curricula (math, science, history)",
+        "Promotes positive behavioral changes"
+      ]
+    },
+    "services": [
+      "Introduce youth to the sport of archery",
+      "Initiate, plan, and implement archery programs for schools and disadvantaged communities",
+      "Provide infrastructure and equipment projects from local to international level",
+      "Recruit and train Basic Archery Instructors (BAI) and Trainer-Instructors (BAIT)",
+      "Organize archery activities and competitions across all levels",
+      "Promote responsible outdoor activity participation"
+    ],
+    "features": [
+      {
+        "icon": "🎯",
+        "title": "Focus & Discipline",
+        "description": "Learn concentration and self-control through the art of archery"
+      },
+      {
+        "icon": "🤝",
+        "title": "Teamwork",
+        "description": "Build camaraderie and team spirit in a supportive environment"
+      },
+      {
+        "icon": "📈",
+        "title": "Personal Growth",
+        "description": "Develop confidence and achieve personal bests"
+      },
+      {
+        "icon": "🏆",
+        "title": "Competition",
+        "description": "Participate in regional and national tournaments"
+      }
+    ],
+    "committee": [
+      {
+        "name": "Ms Antoinette Swanepoel",
+        "role": "Chairperson",
+        "image": "images/committee/chairperson_2024.jpg"
+      },
+      {
+        "name": "Mr Stefan Minne",
+        "role": "Vice Chairperson",
+        "image": "images/committee/vicechairperson_2024.jpg"
+      },
+      {
+        "name": "Ms Maria Jansen van Heerden",
+        "role": "Treasurer",
+        "image": "images/committee/treasurer_2024.jpg"
+      },
+      {
+        "name": "Ms Natasja Hoffmeester",
+        "role": "Secretary",
+        "image": "images/committee/secretary_2024.jpg"
+      },
+      {
+        "name": "Mr Kirstein Pretorius",
+        "role": "Outreach Coordinator",
+        "image": "images/committee/outreach_2024.jpg"
+      },
+      {
+        "name": "Ms Carlette van Nugteren",
+        "role": "Outreach Support",
+        "image": "images/committee/outreach_2_2024.jpg"
+      },
+      {
+        "name": "Ms Sandra van Eck",
+        "role": "Head of Training",
+        "image": "images/committee/training_2024.jpg"
+      },
+      {
+        "name": "Ms Nadia van Nugteren",
+        "role": "Multimedia",
+        "image": "images/committee/multimedia_2024.jpg"
+      },
+      {
+        "name": "Mr Dawid Swanepoel",
+        "role": "Competitions & Championships, Maintenance",
+        "image": "images/committee/maintenance_2024.jpg"
+      },
+      {
+        "name": "Mr Hilgard Strydom",
+        "role": "Competitions & Championships, Records Officer, Marketing, IT Support",
+        "image": "images/committee/itsupport.jpg"
+      },
+      {
+        "name": "Mr Gerhard van Heerden",
+        "role": "Marketing, Communications, Website",
+        "image": "images/committee/website.jpg"
+      },
+      {
+        "name": "Ms Faz Grammer",
+        "role": "Ad hoc",
+        "image": "images/committee/adhoc_1_2024.jpg"
+      },
+      {
+        "name": "Mr Luther de Koker",
+        "role": "Ad hoc",
+        "image": "images/committee/adhoc_2_2024.jpg"
+      }
+    ],
+    "programInfo": {
+      "title": "Get Involved",
+      "description": "Join AGA Western Cape and be part of our archery community",
+      "whatsappQR": "images/about/whatsapp_qrcode.jpg",
+      "fees": {
+        "title": "Fee Structure 2025",
+        "dueDate": "Due by March 31, 2025",
+        "categories": [
+          {
+            "category": "Affiliation Fees",
+            "items": [
+              {"item": "Archers/AAG/BAI/BAIT", "price": "R375"},
+              {"item": "Club affiliation", "price": "None"}
+            ]
+          },
+          {
+            "category": "Competitions",
+            "items": [
+              {"item": "Bull's Eye", "price": "R65"},
+              {"item": "3D", "price": "R70"},
+              {"item": "Combined", "price": "R130"}
+            ]
+          },
+          {
+            "category": "Provincial Championship",
+            "items": [
+              {"item": "Individual disciplines", "price": "R100 each"},
+              {"item": "Both disciplines", "price": "R180"}
+            ]
+          },
+          {
+            "category": "National Championships",
+            "items": [
+              {"item": "NIPC Bull's Eye", "price": "R130"},
+              {"item": "NISCC/NAAGC (per discipline)", "price": "R100"},
+              {"item": "NISCC/NAAGC (combined)", "price": "R180"}
+            ]
+          },
+          {
+            "category": "Instructor Training",
+            "items": [
+              {"item": "BAI, BAIT, BAITS", "price": "TBC"}
+            ]
+          }
+        ]
+      },
+      "banking": {
+        "accountName": "AGA WESTERN CAPE",
+        "bank": "STANDARD BANK",
+        "branch": "CAPE GATE",
+        "accountType": "CURRENT ACCOUNT",
+        "accountNumber": "10150307576",
+        "branchCode": "02391",
+        "proofEmail": "finance@aga-wc.co.za",
+        "reference": "Use NAME & SURNAME as reference"
+      }
+    },
+    "equipment": {
+      "title": "Equipment Standards",
+      "description": "Standardized equipment ensures a level playing field regardless of physical attributes, gender, disability, or financial capability. Success requires practice and dedication.",
+      "items": [
+        "Mathews Genesis bow",
+        "Easton 1820 aluminum arrows",
+        "80cm FITA target (Bullseye)",
+        "3D rubber animals for competitions"
+      ]
+    },
+    "abbreviations": [
+      {"term": "AGA", "definition": "African Genesis Archery"},
+      {"term": "BAI", "definition": "Basic Archery Instructor (presents AGA to children)"},
+      {"term": "BAIT", "definition": "Basic Archery Instructor Trainer (trains BAI, presents to children)"},
+      {"term": "BAITS", "definition": "Specialist trainer (trains BAIT and BAI, presents to children)"}
+    ],
+    "faq": [
+      {
+        "question": "Who can participate in AGA?",
+        "answer": "School children can join clubs throughout South Africa. Grades 4-12 can compete in competitions. We also have an alumni/parent league available."
+      },
+      {
+        "question": "What equipment is needed?",
+        "answer": "Schools and clubs supply standardized equipment including Mathews Genesis bows, Easton 1820 aluminum arrows, 80cm FITA targets, and 3D animals for competitions."
+      },
+      {
+        "question": "How do I join?",
+        "answer": "Scan the WhatsApp QR code to join our communication group, or contact us through the Contact page. Schools and clubs can register for affiliation."
+      }
+    ],
+    "rulesDocument": {
+      "title": "Tournament Rules & Protocols",
+      "description": "AGA Tournament Sanctioned Rules & Protocols 2023",
+      "image": "images/about/rules_document.png",
+      "file": "docs/aga_rules_2023.pdf"
+    }
+  },
+  "events": {
+    "upcoming": [
+      {
+        "title": "Inter Provincial & National Championships",
+        "date": "2026-10-05",
+        "time": "09:00 AM",
+        "location": "TBD",
+        "description": "Annual championship event bringing together the best archers from across provinces"
+      }
+    ],
+    "countdown": {
+      "enabled": true,
+      "eventName": "Inter Provincial & National Championships",
+      "eventDate": "2026-10-05T09:00:00"
+    }
+  },
+  "results": {
+    "title": "Records",
+    "description": "Competition records from 2015 to present. Records set between 2015 and February 19, 2020.",
+    "recordsByEvent": [
+      {
+        "eventType": "BullsEye",
+        "categories": [
+          {
+            "category": "Junior High - Girls",
+            "score": "293",
+            "holders": [
+              {
+                "name": "Micka Lerm",
+                "grade": "Grade 8",
+                "school": "Bloemhof Girls High School",
+                "year": "2015"
+              },
+              {
+                "name": "Janke van Niekerk",
+                "grade": "Grade 8",
+                "school": "DF Malan High School",
+                "year": "2021"
+              }
+            ],
+            "image": "images/records/bullseyejuniorhighgirls2024.png"
+          },
+          {
+            "category": "Junior High - Boys",
+            "score": "299",
+            "holders": [
+              {
+                "name": "Gerdus Visser",
+                "grade": "Grade 11",
+                "school": "Labori High School",
+                "year": "2015"
+              },
+              {
+                "name": "Sean van Wyk",
+                "grade": "Grade 9",
+                "school": "CT High School",
+                "year": "2016"
+              }
+            ],
+            "image": "images/records/bullseyejuniorhighboys.png"
+          },
+          {
+            "category": "Primary - Girls",
+            "score": "291",
+            "holders": [
+              {
+                "name": "Kyla Morsbach",
+                "grade": "Grade 7",
+                "school": "Eversdal Primary School",
+                "year": "2018"
+              }
+            ],
+            "image": "images/records/bullseyeprimarygirls.png"
+          },
+          {
+            "category": "Primary - Boys",
+            "score": "298",
+            "holders": [
+              {
+                "name": "Michael van der Merwe",
+                "grade": "Grade 7",
+                "school": "Gene Louw Primary School",
+                "year": "2018"
+              }
+            ],
+            "image": "images/records/bullseyeprimaryboys.png"
+          },
+          {
+            "category": "AAG - Women",
+            "score": "293",
+            "holders": [
+              {
+                "name": "Jessica Swanepoel",
+                "grade": "",
+                "school": "BowTime",
+                "year": "2020"
+              }
+            ],
+            "image": "images/records/bullseyeaagwomen.png"
+          },
+          {
+            "category": "AAG - Men",
+            "score": "299",
+            "holders": [
+              {
+                "name": "Luther de Koker",
+                "grade": "",
+                "school": "BowTime",
+                "year": "2020"
+              }
+            ],
+            "image": "images/records/bullseyeaagmen.png"
+          }
+        ]
+      },
+      {
+        "eventType": "3D",
+        "categories": [
+          {
+            "category": "Junior High - Girls",
+            "score": "292",
+            "holders": [
+              {
+                "name": "Chantelle van der Merwe",
+                "grade": "Grade 10",
+                "school": "Fairmont High School",
+                "year": "2024"
+              }
+            ],
+            "image": "images/records/3Djuniorhighgirls2024.png"
+          },
+          {
+            "category": "Junior High - Boys",
+            "score": "294",
+            "holders": [
+              {
+                "name": "Gerdus Visser",
+                "grade": "Grade 11",
+                "school": "Labori High School",
+                "year": "2015"
+              }
+            ],
+            "image": "images/records/3Djuniorhighboys.png"
+          },
+          {
+            "category": "Primary - Girls",
+            "score": "279",
+            "holders": [
+              {
+                "name": "Chloe Veldsman",
+                "grade": "Grade 7",
+                "school": "Gene Louw Primary School",
+                "year": "2017"
+              }
+            ],
+            "image": "images/records/3Dprimarygirls.png"
+          },
+          {
+            "category": "Primary - Boys",
+            "score": "294",
+            "holders": [
+              {
+                "name": "Michael van der Merwe",
+                "grade": "Grade 7",
+                "school": "Gene Louw Primary School",
+                "year": "2018"
+              }
+            ],
+            "image": "images/records/3Dprimaryboys.png"
+          },
+          {
+            "category": "AAG - Women",
+            "score": "284",
+            "holders": [
+              {
+                "name": "Annika Louw",
+                "grade": "",
+                "school": "Bastion",
+                "year": "2023"
+              }
+            ],
+            "image": "images/records/3Daagwomen2024.png"
+          },
+          {
+            "category": "AAG - Men",
+            "score": "295",
+            "holders": [
+              {
+                "name": "Hugo Russouw",
+                "grade": "",
+                "school": "Bullzeye Archery",
+                "year": "2023"
+              }
+            ],
+            "image": "images/records/3Daagmen2024.png"
+          }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Get in touch with our team for inquiries about AGA Western Cape programs, events, and training.",
+    "staff": [
+      {
+        "name": "Ms Antoinette Swanepoel",
+        "role": "AGA WC Chairperson",
+        "email": "chairman@aga-wc.co.za",
+        "phone": ""
+      },
+      {
+        "name": "Ms Carla Venter",
+        "role": "AGA WC Vice Chairperson",
+        "email": "",
+        "phone": ""
+      },
+      {
+        "name": "Ms Jo-Anne Eygelaar",
+        "role": "Secretary",
+        "email": "secretary@aga-wc.co.za",
+        "phone": ""
+      },
+      {
+        "name": "Ms Marika Strydom",
+        "role": "Secretary",
+        "email": "secretary@aga-wc.co.za",
+        "phone": ""
+      },
+      {
+        "name": "Ms Georgenia Stam",
+        "role": "Treasurer",
+        "email": "finance@aga-wc.co.za",
+        "phone": ""
+      },
+      {
+        "name": "Mr Luther de Koker",
+        "role": "Training and Development",
+        "email": "training@aga-wc.co.za",
+        "phone": "0844824979"
+      },
+      {
+        "name": "Mr Hilgard Strydom",
+        "role": "Scoring & IT Support",
+        "email": "scoring@aga-wc.co.za",
+        "phone": "0823593196"
+      }
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/groups/NASPWP/"
+    }
+  },
+  "footer": {
+    "description": "AGA Western Cape is committed to developing young archers through quality instruction, competition, and character building.",
+    "quickLinks": [
+      {
+        "name": "Flights",
+        "url": "http://www.naspwpscoring.co.za/WPFL.aspx"
+      }
+    ]
+  }
+}
