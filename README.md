@@ -20,7 +20,7 @@ aga-wc/
 ├── index.html          # Home page
 ├── about.html          # About page
 ├── events.html         # Events page
-├── results.html        # Records page
+├── records.html        # Records page
 ├── contact.html        # Contact page
 ├── css/
 │   └── style.css       # Modern styling with gradients
@@ -35,29 +35,27 @@ aga-wc/
 └── README.md           # This file
 ```
 
-## Viewing Locally
+## Local Development
 
-The site is already running locally! Open your browser and visit:
-
-**http://localhost:8000**
-
-You can browse all pages:
-- http://localhost:8000 (Home)
-- http://localhost:8000/about.html
-- http://localhost:8000/events.html
-- http://localhost:8000/results.html (Records)
-- http://localhost:8000/contact.html
-
-### Starting the Server Again
-
-If you need to restart the server:
+### Starting the Server
 
 ```bash
-# Using Python 3
 python3 -m http.server 8000
 ```
 
 Then open http://localhost:8000 in your browser.
+
+### Stopping the Server
+
+Press `Ctrl+C` in the terminal where the server is running.
+
+### Available Pages
+
+- http://localhost:8000 (Home)
+- http://localhost:8000/about.html
+- http://localhost:8000/events.html
+- http://localhost:8000/records.html (Records)
+- http://localhost:8000/contact.html
 
 ## How to Update Content
 

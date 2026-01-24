@@ -75,6 +75,9 @@ function loadResults() {
             imgContainer.style.marginBottom = '1.5rem';
             imgContainer.style.borderRadius = 'var(--radius-lg)';
             imgContainer.style.background = 'var(--bg-secondary)';
+            imgContainer.style.display = 'flex';
+            imgContainer.style.alignItems = 'center';
+            imgContainer.style.justifyContent = 'center';
 
             if (catData.image) {
                 const img = document.createElement('img');
@@ -82,7 +85,7 @@ function loadResults() {
                 img.alt = `${catData.category} Record Holder`;
                 img.style.width = '100%';
                 img.style.height = '100%';
-                img.style.objectFit = 'cover';
+                img.style.objectFit = 'contain';
                 imgContainer.appendChild(img);
             }
             recordCard.appendChild(imgContainer);

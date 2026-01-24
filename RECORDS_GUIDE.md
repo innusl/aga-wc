@@ -170,7 +170,7 @@ To add a completely new event type (e.g., "Indoor"):
 ## Where Records Appear
 
 - **Home Page** (`index.html`): Shows 3 featured records with photos
-- **Results Page** (`results.html`): Shows ALL records organized by event type
+- **Results Page** (`records.html`): Shows ALL records organized by event type
 
 ## Testing Your Changes
 

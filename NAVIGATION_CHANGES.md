@@ -24,7 +24,7 @@ The site has been restructured to clearly separate **Records** (all-time achieve
 - Live Scores (external)
 - **Results** (external - links to live scoring site)
 
-### Records Page (results.html)
+### Records Page (records.html)
 - Renamed from "Results & Records" to just "Records"
 - Focuses exclusively on all-time record holders
 - Displays photos of record holders
@@ -49,7 +49,7 @@ This follows standard sports website architecture:
 
 1. `data/content.json` - Updated navigation structure
 2. `index.html` - Added "View Live Results" CTA section
-3. `results.html` - Renamed to focus on Records only
+3. `records.html` - Renamed to focus on Records only
 4. `js/results.js` - Updated to display records
 5. `js/main.js` - Updated records preview on home page
 6. `README.md` - Updated documentation
