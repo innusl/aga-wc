@@ -354,8 +354,8 @@ function populateRecordsPreview() {
         // Add image if available
         if (record.image) {
             cardHTML += `
-                <div style="width: 100%; height: 180px; overflow: hidden; margin-bottom: 1.5rem; border-radius: var(--radius-lg); background: var(--bg-secondary);">
-                    <img src="${record.image}" alt="${record.category} Record" style="width: 100%; height: 100%; object-fit: cover;">
+                <div style="width: 100%; height: 200px; overflow: hidden; margin-bottom: 1.5rem; border-radius: var(--radius-lg); background: var(--bg-secondary); display: flex; align-items: center; justify-content: center;">
+                    <img src="${record.image}" alt="${record.category} Record" style="max-width: 100%; max-height: 100%; object-fit: contain;">
                 </div>
             `;
         }
