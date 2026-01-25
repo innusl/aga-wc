@@ -566,7 +566,7 @@ function populateFeesContent() {
                 });
 
                 categoryDiv.innerHTML = `
-                    <h3 style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem; font-weight: 700; color: var(--text-primary); margin-bottom: 1rem; padding-left: 0.5rem; border-left: 4px solid var(--accent);">${category.category}</h3>
+                    <h3 style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem; font-weight: 700; color: white; margin-bottom: 1rem; padding-left: 0.5rem; border-left: 4px solid var(--accent);">${category.category}</h3>
                     ${itemsHTML}
                 `;
                 feesContainer.appendChild(categoryDiv);
