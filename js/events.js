@@ -6,6 +6,47 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(loadEvents, 100);
 });
 
+function parseEventDate(dateString) {
+    // Check if this is a date range (contains " to ")
+    if (dateString.includes(' to ')) {
+        const [startStr, endStr] = dateString.split(' to ');
+        const startDate = new Date(startStr);
+        const endDate = new Date(endStr);
+        return { isRange: true, startDate, endDate };
+    }
+    return { isRange: false, startDate: new Date(dateString), endDate: null };
+}
+
+function formatEventDate(dateInfo) {
+    const { isRange, startDate, endDate } = dateInfo;
+
+    if (!isRange) {
+        return {
+            day: startDate.getDate().toString(),
+            month: startDate.toLocaleString('default', { month: 'short' })
+        };
+    }
+
+    const startDay = startDate.getDate();
+    const endDay = endDate.getDate();
+    const startMonth = startDate.toLocaleString('default', { month: 'short' });
+    const endMonth = endDate.toLocaleString('default', { month: 'short' });
+
+    if (startMonth === endMonth) {
+        // Same month: "19-22" with single month
+        return {
+            day: `${startDay}-${endDay}`,
+            month: startMonth
+        };
+    } else {
+        // Different months: "19 Aug" / "2 Oct" style
+        return {
+            day: `${startDay}-${endDay}`,
+            month: `${startMonth}-${endMonth}`
+        };
+    }
+}
+
 function loadEvents() {
     if (!contentData || !contentData.events) {
         console.error('Events data not loaded');
@@ -27,9 +68,8 @@ function loadEvents() {
     eventsContainer.innerHTML = '';
 
     upcomingEvents.forEach(event => {
-        const eventDate = new Date(event.date);
-        const day = eventDate.getDate();
-        const month = eventDate.toLocaleString('default', { month: 'short' });
+        const dateInfo = parseEventDate(event.date);
+        const { day, month } = formatEventDate(dateInfo);
 
         const eventCard = document.createElement('div');
         eventCard.className = 'event-card fade-in';
@@ -41,13 +81,6 @@ function loadEvents() {
             <div class="event-details">
                 <h3 class="event-title">${event.title}</h3>
                 <div class="event-meta">
-                    <div class="event-meta-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <polyline points="12 6 12 12 16 14"></polyline>
-                        </svg>
-                        <span>${event.time}</span>
-                    </div>
                     <div class="event-meta-item">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
