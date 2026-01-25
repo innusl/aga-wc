@@ -80,4 +80,10 @@ function loadContactInfo() {
     if (facebookLinkMain && contentData.contact.social.facebook) {
         facebookLinkMain.href = contentData.contact.social.facebook;
     }
+
+    // Populate WhatsApp QR code
+    const whatsappQR = document.getElementById('whatsappQR');
+    if (whatsappQR && contentData.about && contentData.about.programInfo && contentData.about.programInfo.whatsappQR) {
+        whatsappQR.src = contentData.about.programInfo.whatsappQR;
+    }
 }
