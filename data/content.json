@@ -255,14 +255,168 @@
   },
   "events": {
     "upcoming": [
-      {
-        "title": "Inter Provincial & National Championships",
-        "date": "2026-10-05",
-        "time": "09:00 AM",
-        "location": "TBD",
-        "description": "Annual championship event bringing together the best archers from across provinces"
-      }
-    ],
+  {
+    "title": "Eben Donges HS (BE Only) & AMG",
+    "date": "2026-01-24",
+    "time": "All Day",
+    "location": "Not Specified",
+    "description": ""
+  },
+  {
+    "title": "BAI Training / BAI Refresher Monument Park HS",
+    "date": "2026-01-31",
+    "time": "All Day",
+    "location": "Monument Park HS",
+    "description": ""
+  },
+  {
+    "title": "Watsonia PS Inter-School BE + 3D Eben Donges HS, Kraaifontein",
+    "date": "2026-02-07",
+    "time": "All Day",
+    "location": "Eben Donges HS, Kraaifontein",
+    "description": ""
+  },
+  {
+    "title": "Paul Greyling PS Inter-School BE Paul Greyling PS, Fish Hoek",
+    "date": "2026-02-21",
+    "time": "All Day",
+    "location": "Paul Greyling PS, Fish Hoek",
+    "description": ""
+  },
+  {
+    "title": "Protea Heights Academy HS Inter-School BE Protea Heights Academy HS Brackenfell",
+    "date": "2026-02-28",
+    "time": "All Day",
+    "location": "Protea Heights Academy HS Brackenfell",
+    "description": ""
+  },
+  {
+    "title": "Stellenberg HS Inter-School BE & 3D Stellenberg HS, Stellenryk",
+    "date": "2026-03-07",
+    "time": "All Day",
+    "location": "Stellenberg HS, Stellenryk",
+    "description": ""
+  },
+  {
+    "title": "Bastion PS Inter-School – BE & 3D Bastion PS, Brackenfell",
+    "date": "2026-03-14",
+    "time": "All Day",
+    "location": "Bastion PS, Brackenfell",
+    "description": ""
+  },
+  {
+    "title": "Monument Park HS Inter-Schools – BE & 3D Monument Park HS, Kraaifontein",
+    "date": "2026-04-11",
+    "time": "All Day",
+    "location": "Monument Park HS, Kraaifontein",
+    "description": ""
+  },
+  {
+    "title": "Bellville HS. Inter-School BE & 3D Bellville HS, Bellville",
+    "date": "2026-04-25",
+    "time": "All Day",
+    "location": "Bellville HS, Bellville",
+    "description": ""
+  },
+  {
+    "title": "AGA-WC FUN SHOOT + BE (NATIONAL ARCHERY DAY) Eben Donges HS",
+    "date": "2026-05-09",
+    "time": "All Day",
+    "location": "Eben Donges HS",
+    "description": ""
+  },
+  {
+    "title": "Gene Louw PS Inter-School BE + 3D Gene Louw PS, Amanda Glen",
+    "date": "2026-05-16",
+    "time": "All Day",
+    "location": "Gene Louw PS, Amanda Glen",
+    "description": ""
+  },
+  {
+    "title": "AGA-WC Inter-School BE + 3D Eben Donges HS",
+    "date": "2026-05-30",
+    "time": "All Day",
+    "location": "Eben Donges HS",
+    "description": ""
+  },
+  {
+    "title": "BAI Training / BAI Refresher TBA",
+    "date": "2026-06-06",
+    "time": "All Day",
+    "location": "TBA",
+    "description": ""
+  },
+  {
+    "title": "Bowtime Inter-Schools BE Bowtime Archery Club, Brackenfell",
+    "date": "2026-06-13",
+    "time": "All Day",
+    "location": "Bowtime Archery Club, Brackenfell",
+    "description": ""
+  },
+  {
+    "title": "Durbanville HS Inter-School BE Durbanville HS, Durbanville",
+    "date": "2026-06-20",
+    "time": "All Day",
+    "location": "Durbanville HS, Durbanville",
+    "description": ""
+  },
+  {
+    "title": "Bellville HTS Inter-School BE Bellville HTS, Bellville",
+    "date": "2026-07-25",
+    "time": "All Day",
+    "location": "Bellville HTS, Bellville",
+    "description": ""
+  },
+  {
+    "title": "AGA-WC Provincial Championships TBA",
+    "date": "2026-08-01",
+    "time": "All Day",
+    "location": "TBA",
+    "description": ""
+  },
+  {
+    "title": "Citrusdal Archery Club Inter-School BE TBA",
+    "date": "2026-08-15",
+    "time": "All Day",
+    "location": "TBA",
+    "description": ""
+  },
+  {
+    "title": "AGA Federation Tournament Botswana",
+    "date": "2026-08-19 to 2026-08-22",
+    "time": "All Day",
+    "location": "Botswana",
+    "description": ""
+  },
+  {
+    "title": "BAI Training / BAI Refresher TBA",
+    "date": "2026-08-29",
+    "time": "All Day",
+    "location": "TBA",
+    "description": ""
+  },
+  {
+    "title": "AGA-WC Inter-School BE Eben Donges HS",
+    "date": "2026-09-05",
+    "time": "All Day",
+    "location": "Eben Donges HS",
+    "description": ""
+  },
+  {
+    "title": "Archery 101 Inter-School BE TBA",
+    "date": "2026-09-19",
+    "time": "All Day",
+    "location": "TBA",
+    "description": ""
+  },
+  {
+    "title": "AGA National Championships Eastern Cape",
+    "date": "2026-09-28 to 2026-10-02",
+    "time": "All Day",
+    "location": "Eastern Cape",
+    "description": ""
+  }
+],
     "countdown": {
       "enabled": true,
       "eventName": "Inter Provincial & National Championships",
