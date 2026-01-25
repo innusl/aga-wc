@@ -36,8 +36,7 @@
     },
     {
       "name": "Results",
-      "url": "https://naspwpscoring.co.za",
-      "external": true
+      "url": "results.html"
     }
   ],
   "about": {
