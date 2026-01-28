@@ -130,7 +130,18 @@ function populateAboutContent() {
         contentData.about.features.forEach(feature => {
             const card = document.createElement('div');
             card.className = 'card feature-card fade-in';
+
+            let imageHTML = '';
+            if (feature.image) {
+                imageHTML = `
+                    <div style="width: 100%; height: 120px; overflow: hidden; border-radius: var(--radius-lg); margin-bottom: 1rem; opacity: 0.85;">
+                        <img src="${feature.image}" alt="${feature.title}" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                `;
+            }
+
             card.innerHTML = `
+                ${imageHTML}
                 <span class="card-icon">${feature.icon}</span>
                 <h3 class="card-title">${feature.title}</h3>
                 <p class="card-description">${feature.description}</p>

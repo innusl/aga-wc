@@ -76,22 +76,26 @@
       {
         "icon": "🎯",
         "title": "Focus & Discipline",
-        "description": "Learn concentration and self-control through the art of archery"
+        "description": "Learn concentration and self-control through the art of archery",
+        "image": "images/focus-discipline.jpg"
       },
       {
         "icon": "🤝",
         "title": "Teamwork",
-        "description": "Build camaraderie and team spirit in a supportive environment"
+        "description": "Build camaraderie and team spirit in a supportive environment",
+        "image": "images/teamwork.jpg"
       },
       {
         "icon": "📈",
         "title": "Personal Growth",
-        "description": "Develop confidence and achieve personal bests"
+        "description": "Develop confidence and achieve personal bests",
+        "image": "images/personal-growth.jpg"
       },
       {
         "icon": "🏆",
         "title": "Competition",
-        "description": "Participate in regional and national tournaments"
+        "description": "Participate in regional and national tournaments",
+        "image": "images/competition.jpg"
       }
     ],
     "committee": [
