@@ -95,8 +95,8 @@
             </div>
 
             <div class="toggle-container">
-                <button class="toggle-btn active" id="learnerBtn" onclick="showLearner()">Learner Archers</button>
-                <button class="toggle-btn" id="aagBtn" onclick="showAAG()">AAG Archers</button>
+                <button class="toggle-btn active" id="learnerBtn">Learner Archers</button>
+                <button class="toggle-btn" id="aagBtn">AAG Archers</button>
             </div>
 
             <div class="iframe-container">
@@ -146,23 +146,27 @@
 
     <script src="js/main.js"></script>
     <script>
-        const learnerUrl = 'https://www.naspwpscoring.co.za/Nasparcher.aspx';
-        const aagUrl = 'https://www.naspwpscoring.co.za/AAGNasparcher.aspx';
-        const archerFrame = document.getElementById('archerFrame');
-        const learnerBtn = document.getElementById('learnerBtn');
-        const aagBtn = document.getElementById('aagBtn');
+        document.addEventListener('DOMContentLoaded', function() {
+            const learnerUrl = 'https://www.naspwpscoring.co.za/Nasparcher.aspx';
+            const aagUrl = 'https://www.naspwpscoring.co.za/AAGNasparcher.aspx';
+            const archerFrame = document.getElementById('archerFrame');
+            const learnerBtn = document.getElementById('learnerBtn');
+            const aagBtn = document.getElementById('aagBtn');
 
-        function showLearner() {
-            archerFrame.src = learnerUrl;
-            learnerBtn.classList.add('active');
-            aagBtn.classList.remove('active');
-        }
+            if (learnerBtn && aagBtn && archerFrame) {
+                learnerBtn.addEventListener('click', function() {
+                    archerFrame.src = learnerUrl;
+                    learnerBtn.classList.add('active');
+                    aagBtn.classList.remove('active');
+                });
 
-        function showAAG() {
-            archerFrame.src = aagUrl;
-            aagBtn.classList.add('active');
-            learnerBtn.classList.remove('active');
-        }
+                aagBtn.addEventListener('click', function() {
+                    archerFrame.src = aagUrl;
+                    aagBtn.classList.add('active');
+                    learnerBtn.classList.remove('active');
+                });
+            }
+        });
     </script>
 </body>
 </html>
