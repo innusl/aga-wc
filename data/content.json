@@ -176,31 +176,33 @@
           {
             "category": "Affiliation Fees",
             "items": [
-              {"item": "Archers/AAG/BAI/BAIT", "price": "R375"},
-              {"item": "Club affiliation", "price": "None"}
+              {"item": "Archers/AAG/BAI/BAIT", "price": "R375 due 31/03/2026"},
+              {"item": "Club affiliation", "price": "R0"}
             ]
           },
           {
             "category": "Competitions",
             "items": [
-              {"item": "Bull's Eye", "price": "R65"},
-              {"item": "3D", "price": "R70"},
-              {"item": "Combined", "price": "R130"}
+              {"item": "BE competition", "price": "R70"},
+              {"item": "3D competition", "price": "R75"},
+              {"item": "Both BE + 3D", "price": "R140"}
             ]
           },
           {
             "category": "Provincial Championship",
             "items": [
-              {"item": "Individual disciplines", "price": "R100 each"},
-              {"item": "Both disciplines", "price": "R180"}
+              {"item": "BE competition", "price": "R100"},
+              {"item": "3D", "price": "R100"},
+              {"item": "Both BE + 3D", "price": "R180"}
             ]
           },
           {
             "category": "National Championships",
             "items": [
-              {"item": "NIPC Bull's Eye", "price": "R130"},
-              {"item": "NISCC/NAAGC (per discipline)", "price": "R100"},
-              {"item": "NISCC/NAAGC (combined)", "price": "R180"}
+              {"item": "NISC - BE competition", "price": "R100"},
+              {"item": "NISC - 3D competition", "price": "R100"},
+              {"item": "NISC - Both BE + 3D", "price": "R180"},
+              {"item": "NIPC (BE only)", "price": "R150"}
             ]
           },
           {
