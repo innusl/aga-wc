@@ -386,6 +386,14 @@ section:nth-child(even) {
     box-shadow: var(--shadow-lg);
 }
 
+.event-card.past-event {
+    background: #e5e5e5;
+}
+
+.event-card.past-event .event-date {
+    background: #9e9e9e;
+}
+
 .event-date {
     flex-shrink: 0;
     text-align: center;

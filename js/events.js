@@ -47,6 +47,15 @@ function formatEventDate(dateInfo) {
     }
 }
 
+function isEventPast(dateInfo) {
+    const now = new Date();
+    now.setHours(0, 0, 0, 0);
+    const compareDate = dateInfo.endDate || dateInfo.startDate;
+    const eventDate = new Date(compareDate);
+    eventDate.setHours(0, 0, 0, 0);
+    return eventDate < now;
+}
+
 function loadEvents() {
     if (!contentData || !contentData.events) {
         console.error('Events data not loaded');
@@ -70,9 +79,10 @@ function loadEvents() {
     upcomingEvents.forEach(event => {
         const dateInfo = parseEventDate(event.date);
         const { day, month } = formatEventDate(dateInfo);
+        const isPast = isEventPast(dateInfo);
 
         const eventCard = document.createElement('div');
-        eventCard.className = 'event-card fade-in';
+        eventCard.className = 'event-card fade-in' + (isPast ? ' past-event' : '');
         eventCard.innerHTML = `
             <div class="event-date">
                 <div class="event-date-day">${day}</div>
