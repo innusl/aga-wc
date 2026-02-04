@@ -100,69 +100,49 @@
     ],
     "committee": [
       {
-        "name": "Ms Antoinette Swanepoel",
-        "role": "Chairperson",
-        "image": "images/committee/chairperson_2024.jpg"
-      },
-      {
-        "name": "Mr Stefan Minne",
-        "role": "Vice Chairperson",
-        "image": "images/committee/vicechairperson_2024.jpg"
-      },
-      {
-        "name": "Ms Maria Jansen van Heerden",
-        "role": "Treasurer",
-        "image": "images/committee/treasurer_2024.jpg"
-      },
-      {
-        "name": "Ms Natasja Hoffmeester",
-        "role": "Secretary",
-        "image": "images/committee/secretary_2024.jpg"
-      },
-      {
-        "name": "Mr Kirstein Pretorius",
-        "role": "Outreach Coordinator",
-        "image": "images/committee/outreach_2024.jpg"
-      },
-      {
-        "name": "Ms Carlette van Nugteren",
-        "role": "Outreach Support",
-        "image": "images/committee/outreach_2_2024.jpg"
-      },
-      {
         "name": "Ms Sandra van Eck",
-        "role": "Head of Training",
-        "image": "images/committee/training_2024.jpg"
+        "role": "Chairperson",
+        "image": "images/defaults/photo_not_available.jpeg"
       },
       {
-        "name": "Ms Nadia van Nugteren",
-        "role": "Multimedia",
-        "image": "images/committee/multimedia_2024.jpg"
+        "name": "Ms Donnae Strydom",
+        "role": "Vice Chairperson",
+        "image": "images/defaults/photo_not_available.jpeg"
       },
       {
-        "name": "Mr Dawid Swanepoel",
-        "role": "Competitions & Championships, Maintenance",
-        "image": "images/committee/maintenance_2024.jpg"
+        "name": "Ms Hester Hamman",
+        "role": "Treasurer",
+        "image": "images/defaults/photo_not_available.jpeg"
       },
       {
-        "name": "Mr Hilgard Strydom",
-        "role": "Competitions & Championships, Records Officer, Marketing, IT Support",
-        "image": "images/committee/itsupport.jpg"
-      },
-      {
-        "name": "Mr Gerhard van Heerden",
-        "role": "Marketing, Communications, Website",
-        "image": "images/committee/website.jpg"
-      },
-      {
-        "name": "Ms Faz Grammer",
-        "role": "Ad hoc",
-        "image": "images/committee/adhoc_1_2024.jpg"
+        "name": "Ms Shani Donaldson",
+        "role": "Secretary",
+        "image": "images/defaults/photo_not_available.jpeg"
       },
       {
         "name": "Mr Luther de Koker",
-        "role": "Ad hoc",
-        "image": "images/committee/adhoc_2_2024.jpg"
+        "role": "Training",
+        "image": "images/defaults/photo_not_available.jpeg"
+      },
+      {
+        "name": "Ms Carlette van Nugteren",
+        "role": "Communication, Social Media & Marketing",
+        "image": "images/defaults/photo_not_available.jpeg"
+      },
+      {
+        "name": "Ms Evette Lesch",
+        "role": "Communication, Social Media & Marketing",
+        "image": "images/defaults/photo_not_available.jpeg"
+      },
+      {
+        "name": "Mr Hilgard Strydom",
+        "role": "Competition Scoring & Records",
+        "image": "images/defaults/photo_not_available.jpeg"
+      },
+      {
+        "name": "Mr Innus Leuvennink",
+        "role": "IT & Website Support",
+        "image": "images/defaults/photo_not_available.jpeg"
       }
     ],
     "programInfo": {
@@ -627,46 +607,58 @@
     "description": "Get in touch with our team for inquiries about AGA Western Cape programs, events, and training.",
     "staff": [
       {
-        "name": "Ms Antoinette Swanepoel",
-        "role": "AGA WC Chairperson",
+        "name": "Ms Sandra van Eck",
+        "role": "Chairperson",
         "email": "chairman@aga-wc.co.za",
         "phone": ""
       },
       {
-        "name": "Ms Carla Venter",
-        "role": "AGA WC Vice Chairperson",
+        "name": "Ms Donnae Strydom",
+        "role": "Vice Chairperson",
         "email": "",
         "phone": ""
       },
       {
-        "name": "Ms Jo-Anne Eygelaar",
-        "role": "Secretary",
-        "email": "secretary@aga-wc.co.za",
-        "phone": ""
-      },
-      {
-        "name": "Ms Marika Strydom",
-        "role": "Secretary",
-        "email": "secretary@aga-wc.co.za",
-        "phone": ""
-      },
-      {
-        "name": "Ms Georgenia Stam",
+        "name": "Ms Hester Hamman",
         "role": "Treasurer",
         "email": "finance@aga-wc.co.za",
         "phone": ""
       },
       {
+        "name": "Ms Shani Donaldson",
+        "role": "Secretary",
+        "email": "secretary@aga-wc.co.za",
+        "phone": ""
+      },
+      {
         "name": "Mr Luther de Koker",
-        "role": "Training and Development",
+        "role": "Training",
         "email": "training@aga-wc.co.za",
         "phone": "0844824979"
       },
       {
+        "name": "Ms Carlette van Nugteren",
+        "role": "Communication, Social Media & Marketing",
+        "email": "",
+        "phone": ""
+      },
+      {
+        "name": "Ms Evette Lesch",
+        "role": "Communication, Social Media & Marketing",
+        "email": "",
+        "phone": ""
+      },
+      {
         "name": "Mr Hilgard Strydom",
-        "role": "Scoring & IT Support",
+        "role": "Competition Scoring & Records",
         "email": "scoring@aga-wc.co.za",
         "phone": "0823593196"
+      },
+      {
+        "name": "Mr Innus Leuvennink",
+        "role": "IT & Website Support",
+        "email": "",
+        "phone": ""
       }
     ],
     "social": {
