@@ -457,7 +457,7 @@
               {
                 "name": "Sean van Wyk",
                 "grade": "Grade 9",
-                "school": "CT High School",
+                "school": "Home School",
                 "year": "2016"
               }
             ],
@@ -498,6 +498,12 @@
                 "grade": "",
                 "school": "BowTime",
                 "year": "2020"
+              },
+              {
+                "name": "Summer Steyn",
+                "grade": "",
+                "school": "Bullzeye Archery",
+                "year": "2026"
               }
             ],
             "image": "images/records/bullseyeaagwomen.png"
