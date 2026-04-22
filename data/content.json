@@ -19,6 +19,10 @@
       "url": "about.html"
     },
     {
+      "name": "Rules",
+      "url": "rules.html"
+    },
+    {
       "name": "Events",
       "url": "events.html"
     },
@@ -233,12 +237,21 @@
         "question": "How do I join?",
         "answer": "Scan the WhatsApp QR code to join our communication group, or contact us through the Contact page. Schools and clubs can register for affiliation."
       }
-    ],
-    "rulesDocument": {
+    ]
+  },
+  "rules": {
+    "tournamentRules": {
       "title": "Tournament Rules & Protocols",
       "description": "AGA Tournament Sanctioned Rules & Protocols 2023",
       "image": "images/about/rules_document.png",
-      "file": "docs/aga_rules_2023.pdf"
+      "file": "docs/aga_rules_2023.pdf",
+      "buttonText": "Download Tournament Rules (PDF)"
+    },
+    "colourAwardPolicy": {
+      "title": "Colour Award Policy and Procedure",
+      "description": "Official AGA Western Cape policy and procedure for awarding provincial and district colours.",
+      "buttonText": "Download Colour Award Policy",
+      "file": "https://drive.google.com/uc?export=download&id=1glp_HvMZOUigs4hnw9e3IPpBk19Nh2vC"
     }
   },
   "events": {

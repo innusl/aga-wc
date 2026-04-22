@@ -241,6 +241,33 @@ Records are organized by **Event Type** (BullsEye, 3D) and **Category** (Junior 
 
 **Note:** Current competition results are viewed externally via the "Live Scores" and "Results" links in the navigation, which direct to https://naspwpscoring.co.za
 
+### Updating Rules Page
+
+The Rules page (`rules.html`) shows two configurable sections, both edited under the top-level `rules` object in `data/content.json`:
+
+```json
+{
+  "rules": {
+    "tournamentRules": {
+      "title": "Tournament Rules & Protocols",
+      "description": "AGA Tournament Sanctioned Rules & Protocols 2023",
+      "image": "images/about/rules_document.png",
+      "file": "docs/aga_rules_2023.pdf",
+      "buttonText": "Download Tournament Rules (PDF)"
+    },
+    "colourAwardPolicy": {
+      "title": "Colour Award Policy and Procedure",
+      "description": "Official AGA Western Cape policy and procedure for awarding provincial and district colours.",
+      "buttonText": "Download Colour Award Policy",
+      "file": "https://drive.google.com/file/d/.../view?usp=drivesdk"
+    }
+  }
+}
+```
+
+- `file` may be a local path (downloads via the browser) or an external URL (e.g. Google Drive — opens in a new tab).
+- `buttonText` controls the label on the download button for each section.
+
 ### Updating Contact Information
 
 The contact page displays staff members with their roles and contact details.

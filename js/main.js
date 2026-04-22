@@ -16,6 +16,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         initializeHomePage();
     } else if (page === 'about.html') {
         initializeAboutPage();
+    } else if (page === 'rules.html') {
+        initializeRulesPage();
     } else if (page === 'fees.html') {
         initializeFeesPage();
     }
@@ -100,9 +102,13 @@ function initializeAboutPage() {
     populateServices();
     populateEquipment();
     populateFAQ();
-    populateRulesDocument();
     populateAbbreviations();
     populateCommittee();
+}
+
+// Initialize rules page
+function initializeRulesPage() {
+    populateRulesPage();
 }
 
 // Initialize fees page
@@ -291,18 +297,34 @@ function populateFAQ() {
     });
 }
 
-// Populate rules document section
-function populateRulesDocument() {
-    if (!contentData || !contentData.about || !contentData.about.rulesDocument) return;
+// Populate rules page sections
+function populateRulesPage() {
+    if (!contentData || !contentData.rules) return;
 
-    const rulesTitle = document.getElementById('rulesTitle');
-    const rulesDescription = document.getElementById('rulesDescription');
-    const rulesDownload = document.getElementById('rulesDownload');
+    const tournament = contentData.rules.tournamentRules;
+    if (tournament) {
+        const title = document.getElementById('tournamentRulesTitle');
+        const description = document.getElementById('tournamentRulesDescription');
+        const download = document.getElementById('tournamentRulesDownload');
+        const buttonText = document.getElementById('tournamentRulesButtonText');
 
-    if (rulesTitle) rulesTitle.textContent = contentData.about.rulesDocument.title;
-    if (rulesDescription) rulesDescription.textContent = contentData.about.rulesDocument.description;
-    if (rulesDownload && contentData.about.rulesDocument.file) {
-        rulesDownload.href = contentData.about.rulesDocument.file;
+        if (title) title.textContent = tournament.title;
+        if (description) description.textContent = tournament.description;
+        if (download && tournament.file) download.href = tournament.file;
+        if (buttonText && tournament.buttonText) buttonText.textContent = tournament.buttonText;
+    }
+
+    const colour = contentData.rules.colourAwardPolicy;
+    if (colour) {
+        const title = document.getElementById('colourAwardTitle');
+        const description = document.getElementById('colourAwardDescription');
+        const download = document.getElementById('colourAwardDownload');
+        const buttonText = document.getElementById('colourAwardButtonText');
+
+        if (title) title.textContent = colour.title;
+        if (description) description.textContent = colour.description;
+        if (download && colour.file) download.href = colour.file;
+        if (buttonText && colour.buttonText) buttonText.textContent = colour.buttonText;
     }
 }
 
@@ -644,15 +666,14 @@ function populateFeesContent() {
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         const href = this.getAttribute('href');
-        if (href !== '#' && href !== '') {
-            e.preventDefault();
-            const target = document.querySelector(href);
-            if (target) {
-                target.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
-            }
+        if (!href || !href.startsWith('#') || href === '#') return;
+        e.preventDefault();
+        const target = document.querySelector(href);
+        if (target) {
+            target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
         }
     });
 });
