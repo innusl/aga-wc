@@ -104,13 +104,8 @@
     ],
     "committee": [
       {
-        "name": "Ms Sandra van Eck",
-        "role": "Chairperson",
-        "image": "images/defaults/photo_not_available.jpeg"
-      },
-      {
         "name": "Ms Donnae Strydom",
-        "role": "Vice Chairperson",
+        "role": "Chairperson",
         "image": "images/defaults/photo_not_available.jpeg"
       },
       {
