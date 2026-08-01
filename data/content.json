@@ -615,15 +615,9 @@
     "description": "Get in touch with our team for inquiries about AGA Western Cape programs, events, and training.",
     "staff": [
       {
-        "name": "Ms Sandra van Eck",
+        "name": "Ms Donnae Strydom",
         "role": "Chairperson",
         "email": "chairman@aga-wc.co.za",
-        "phone": "+27 83 715 9188 (WhatsApp only)"
-      },
-      {
-        "name": "Ms Donnae Strydom",
-        "role": "Vice Chairperson",
-        "email": "",
         "phone": "+27 82 825 6120 (WhatsApp only)"
       },
       {
@@ -661,12 +655,6 @@
         "role": "Competition Scoring & Records",
         "email": "scoring@aga-wc.co.za",
         "phone": "0823593196"
-      },
-      {
-        "name": "Mr Innus Leuvennink",
-        "role": "IT & Website Support",
-        "email": "",
-        "phone": ""
       }
     ],
     "social": {
