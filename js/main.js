@@ -172,9 +172,6 @@ function populateCommittee() {
         card.style.textAlign = 'center';
 
         card.innerHTML = `
-            <div style="width: 100%; height: 250px; overflow: hidden; margin-bottom: 1.5rem; border-radius: var(--radius-lg); background: var(--bg-secondary);">
-                <img src="${member.image}" alt="${member.name}" style="width: 100%; height: 100%; object-fit: cover;">
-            </div>
             <h3 style="font-size: 1.125rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.5rem;">${member.name}</h3>
             <p style="color: var(--secondary); font-weight: 600; font-size: 0.9375rem;">${member.role}</p>
         `;
